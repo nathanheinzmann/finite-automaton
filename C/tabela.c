@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
-
 
 int main(){
-  setlocale(LC_ALL, "Portuguese");
-  int n = 97;
   char header[15] = { '$',  'a',  'e',  'i',  'o',  'u',  'n',  't',  'g',  'r',  'c',  'h',  's',  'w',  'B'}; 
   char side[19][3] = {
     '\0', '\0', '0',
